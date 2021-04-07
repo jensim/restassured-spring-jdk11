@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<rest-assured.version>4.3.3</rest-assured.version>
+		<groovy.version>3.0.7</groovy.version>
 	</properties>
 
 	<dependencies>
