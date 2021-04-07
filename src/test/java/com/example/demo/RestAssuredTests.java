@@ -20,7 +20,7 @@ class RestAssuredTests {
 				.given()
 				.header("Accept", "*/*")
 				.when()
-				.get("http:localhost:" + port + "/ping")
+				.get("http://localhost:" + port + "/ping")
 				.then()
 				.statusCode(200)
 				.body(is("pong"));
